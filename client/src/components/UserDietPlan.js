@@ -273,7 +273,7 @@ const UserDietPlan = () => {
           </select>
         </label>
 
-        <button type="submitDiet">Submit</button>
+        <button id="submitDietButton" type="submitDiet">Submit</button>
       </form>
     </div>
   </div>

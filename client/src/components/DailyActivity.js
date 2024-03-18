@@ -99,6 +99,7 @@ const DailyActivity = () => {
                 <input placeholder='200' type="number" id="small-textbox" name="steps" value={userData.steps} onChange={handleInputs} step='100' />
                 <button
                   type="submit"
+                  id = "dailybutton"
                   onClick={DailyActivityForm}
                 >
                   Add
