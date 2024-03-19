@@ -113,7 +113,7 @@ const UserProfile = () => {
                 onChange={handleInputChange}
               />
             </label>
-            <button type='updateProfile'>Update</button>
+            <button id="updateButton" type='updateProfile'>Update</button>
           </form>
         </div>
       </div>
