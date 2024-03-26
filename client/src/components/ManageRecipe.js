@@ -235,10 +235,10 @@ const ManageRecipe = () => {
                       <h2 className="recipe-name" >{recipe.name}</h2>
 
                       <div className="recipe-actions" onClick={(event) => event.stopPropagation()}>
-                        <button className="recipe-action-btn" onClick={() => handleDeleteRecipe(recipe._id)}>
+                        <button className="recipe-action-btn" id = "del-btn" onClick={() => handleDeleteRecipe(recipe._id)}>
                           <FaTrashAlt />
                         </button>
-                        <button className="recipe-action-btn" onClick={() => onEditRecipeClick(i)}>
+                        <button className="recipe-action-btn" id = "edit-btn" onClick={() => onEditRecipeClick(i)}>
                           <FaEdit />
                         </button>
                       </div>
